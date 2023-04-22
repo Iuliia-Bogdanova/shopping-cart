@@ -1,0 +1,27 @@
+.product {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.product > * {
+    align-self: center;
+}
+
+.product__img {
+
+    justify-self: center;
+
+}
+.product__title {
+}
+.product__count {
+}
+.product__price {
+}
+.product__controls {
+    justify-self: center;
+}
