@@ -159,6 +159,8 @@ body {
 .product {
   display: grid;
   grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(126, 155, 189, 0.3);
   font-weight: 600;
   font-size: 18px;
   line-height: 1.3;
@@ -178,7 +180,7 @@ body {
 
 .count {
   display: flex;
-  column-gap: 10px;
+  column-gap: 20px;
   align-items: center;
 }
 
